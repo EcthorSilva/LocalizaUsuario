@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnProcurar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
 
                 if (etLat.getText().toString().isEmpty() || etLong.getText().toString().isEmpty()) {
                     Toast.makeText(MainActivity.this, "Campo vazio!!!", Toast.LENGTH_LONG).show();
