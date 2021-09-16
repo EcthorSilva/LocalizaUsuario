@@ -1,11 +1,10 @@
 package com.example.localizausuario;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button btnProcurar;
-    EditText etLat, etLong;
+    public static EditText etLat, etLong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnProcurar = findViewById(R.id.btn_procurar);
-        etLat = findViewById(R.id.et_lat);
-        etLong = findViewById(R.id.et_long);
+        etLat = (EditText) findViewById(R.id.et_lat);
+        etLong = (EditText) findViewById(R.id.et_long);
 
         btnProcurar.setOnClickListener(new View.OnClickListener() {
             @Override
