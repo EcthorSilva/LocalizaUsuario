@@ -4,7 +4,7 @@ Atividade tem por objetivo compreender o uso das localizações e marcações em
 
 ## Atividade Localiza Usuário - Circulo
 
-**Solicitado pelo professor Fabio no dia 13/09/2021 referente a aula 16 da materia de PAM II**
+**Solicitado pelo professor Professor Laércio Silva no dia 13/09/2021 referente a aula 16 da materia de PAM II**
 
 - Criar um aplicativo para que o usuário possa:
     - Inserir a Latitude e Longitude 
